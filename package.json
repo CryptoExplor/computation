@@ -1,0 +1,27 @@
+{
+  "name": "tax-dashboard-app",
+  "version": "1.0.0",
+  "description": "ITR computation dashboard with Firebase, PDF export, and plan-based logic",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "firebase": "^10.12.2",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.5.28",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.3",
+    "vite": "^5.0.10"
+  },
+  "keywords": ["firebase", "itr", "tax", "dashboard", "pwa"],
+  "author": "ravi",
+  "license": "ISC"
+}
